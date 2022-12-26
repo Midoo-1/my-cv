@@ -5,11 +5,16 @@
 
 .resume {
     display: flex;
-
+    text-decoration: underline;
+color: rgb(107, 190, 111);
 
 }
 
-h2 {
+.data {
     text-decoration: underline;
     
+}
+
+.education{
+    text-decoration: underline;
 }
