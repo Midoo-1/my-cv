@@ -60,6 +60,11 @@ a {
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
 }
+@media only screen and (max-width: 700px) {
+    .container {
+    grid-template-columns: 1fr;
+    }
+}
 
 .profile {
     grid-column: 1/-1;
@@ -155,7 +160,8 @@ a {
    display:flex;
    align-items: center;
    flex-wrap: wrap;
-   gap: 2rem; 
+   gap: 2rem;
+   
 }
 .interest_item {
     font-size: 1.5rem;
